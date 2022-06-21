@@ -1,0 +1,10 @@
+[
+    [ [ { "content": "1" } ], "+1" ],
+    [ [ { "content": "1\n1" } ], "+1\n|1" ],
+    [ [ { "content": "1", "children": [
+        { "content": "1-1" }
+    ] } ], "+1\n    +1-1" ],
+    [ [ { "content": "1", "children": [
+        { "content": "1-1" }
+    ] }, { "content": "2" } ], "+1\n    +1-1\n+2" ]
+]
